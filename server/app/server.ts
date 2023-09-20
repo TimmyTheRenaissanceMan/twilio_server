@@ -23,6 +23,6 @@ app.use(
 
 app.use("/api", require("./routes/phoneRoutes"));
 
-app.listen(5001 || process.env.PORT, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log("The server is running on port 5000");
 });
