@@ -5,9 +5,9 @@
     "main": "server.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "script": "node src/server",
+        "script": "node app/server",
         "start": "node server",
-        "dev": "nodemon src/server"
+        "dev": "nodemon app/server"
     },
     "keywords": [],
     "author": "",
