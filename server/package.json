@@ -9,7 +9,7 @@
         "start": "node server",
         "dev": "nodemon app/server",
         "build": "tsc",
-        "postinstall": "npm run build"
+        "postinstall": "npm run build && npm run build"
     },
     "keywords": [],
     "author": "",
