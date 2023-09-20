@@ -1,2 +1,2 @@
 worker: npm start
-web: node app/server.ts
+web: node dist/server.ts
